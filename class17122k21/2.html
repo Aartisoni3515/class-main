@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        td{
+            border-right: 2px #000;
+            border-bottom: 2px solid #000;
+            padding: 15px;
+            border-style: double;
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            padding: 20px;
+            margin: 10px;
+        }
+        /* td:hover{
+            font-size: 30px;
+            color:red;
+        } */
+        table{
+            border-collapse: collapse;
+            padding: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div style="background-color: red;">Ajay ashdjkas jkashdjksa jsadhsak</div>
+    <div style="background-color: aquamarine;">Ajay</div>
+    <ul>
+        <li>table</li>
+        <li>th</li>
+        <li>tr</li>
+        <li>td</li>
+        <li>thead</li>
+        <li>tbody</li>
+        <li>tfoot</li>
+        <li>rowSpan</li>
+        <li>colspan</li>
+        <li>caption</li>
+    </ul>
+    <table>
+        <tr>
+            <th>Sr</th>
+            <th colspan="2">Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td rowspan="2">C</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>C++</td>
+            <td>1</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Java</td>
+            <td>1</td>
+            <td>C</td>
+        </tr>
+    </table>
+    <table>
+        <thead>
+            <caption>this is my table</caption>
+            <tr>
+                <th>Sr</th>
+                <th>Subject</th>
+                <th>Lecture</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <th>Sr</th>
+                <th>Subject</th>
+                <th>Lecture</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>C</td>
+                <td>1</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>C++</td>
+                <td>1</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Java</td>
+                <td>1</td>
+                <td>C</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>3</td>
+                <td>Java</td>
+                <td>1</td>
+                <td>C</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

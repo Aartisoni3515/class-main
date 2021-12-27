@@ -1,0 +1,17 @@
+.myHeader{
+    background-color: orange;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+.myHeaderListItem{
+    padding: 10px 30px;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+
+}

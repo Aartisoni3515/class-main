@@ -1,0 +1,221 @@
+Full Stack Course - Frontend Backend
+
+
+6 - 8 months apprx
+
+
+Monday Tue Wed
+Saturday - doubt / extra stuffs - interview / assignment after every major topic
+
+
+HTML
+CSS   - 1 months
+
+JS
+Git
+React - 3 months
+
+Mongodb
+Node
+Express - 2 months
+
+ optional  / extra
+ 
+ 
+Bootstrap
+SSR ( Server Side Rendering ) - SEO optimization
+Debugging - 
+Interview - 
+
+
+
+1month for Project
+
+7 Months
+
+
+IDEs / tools
+
+CodeSandbox - 
+VS Code - live server
+	live sass compiler
+	eslint
+	es6 es7
+	prbl and warning handling
+	gitlens
+	prettier
+	
+Github - repo
+	update, delete 
+
+Mongo DB Compass - data type
+	update manually
+	sorting
+	filtering
+	
+Postman - api calls and debugging part
+
+Browser
+	React Dev Tools
+	Redux Dev Tools
+	Inspect
+	
+	
+Monday 
+Assignment - VS Code - live server extension, prettier
+HTML - monday 
+
+
+
+headigns
+p
+br
+img src height width
+a href target
+style attribute
+title attribute
+
+style attribute
+style="property:value"
+background-color:red
+color:red
+font-family:sans-serif
+font-size:120%
+text-align:center
+
+formatting
+b
+strong
+i
+em
+mark
+small
+del
+ins
+sub
+sup
+
+quotes
+blockquote
+q for short quotes
+abbr title
+address
+cite italic
+bdo dir="rtl
+<!-- -->
+
+color
+rgb
+rgba
+hex
+hsl 0 100% 50%
+
+links
+visited
+active
+unvisted
+
+target self blank parent top
+
+url absolute vs relative
+
+lists
+tables
+
+
+form
+htmlcritical rendering path (DOM, CSSOM, Rendering)
+window
+location
+document
+
+CSS basics width height padding marin border color bg 
+positions(static, relative, absolute, fixed, sticky)
+overflow (visible, hidden, scroll, auto)
+float(left, right, none, inherit)
+display(none, block, inline) inline-block
+visibility hidden
+z index
+opacity 
+font = family style weight size
+text = color decoration
+text-align left right center justify
+
+selectors
+Simple selectors (name, id, class)
+Combinator selectors (specific related)
+	descendant selector (space)
+	child selector (>)
+	adjacent sibling selector (+)
+	general sibling selector (~)
+Pseudo-class selectors (specific state)
+	active
+	visited
+	hover
+	focus
+	disabled
+	enabled
+	p:first-child
+Pseudo-elements selectors (part of an element) only for block level elements
+	::first-line
+	::first-letter
+	::before
+	::after
+	::marker
+Attribute selectors (attribute or attribute value)
+a[target="_blank"] {
+  background-color: yellow;
+}
+input[type=text]
+
+css specificity
+!important
+
+flexbox
+display:flex
+flex-direction row column row-reverse column-reverse
+flex-wrap wrap nowrap wrap-reverse
+flex-flow flex-direction and flex-wrap row wrap
+justify-content center flex-start flex-end space-around space-between
+align-items center flex-start flex-end stretch baseline
+align-content center flex-start flex-end space-around space-between stretch
+
+
+grid
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>
+</div>
+display:grid or inline-grid
+grid-column-gap
+grid-row-gap
+grid-gap grid-row-gap and the grid-column-gap
+grid-row-start: 1;
+grid-row-end: 3;
+grid-column-start: 1;
+grid-column-end: 3;
+
+
+
+display: grid;
+grid-template-columns: 80px 200px auto 40px;
+
+display: grid;
+grid-template-columns: 80px 200px auto 40px;
+
+justify-content start end space-around space-between space-evenly center
+align-content start end space-around space-between space-evenly center
+
+
+
+
+
+
+
